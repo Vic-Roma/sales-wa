@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 import java.util.List;
 
+//Translates message into commands and arguments
 @Component
 public class CommandParser {
 

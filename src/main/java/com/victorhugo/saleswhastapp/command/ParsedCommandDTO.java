@@ -8,7 +8,6 @@ public class ParsedCommandDTO {
     private String command;
     private List<String> arguments;
 
-
     public ParsedCommandDTO(){}
 
     public ParsedCommandDTO(String command, List<String> arguments){
