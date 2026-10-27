@@ -2,7 +2,7 @@ package com.victorhugo.saleswhastapp.service;
 
 import com.victorhugo.saleswhastapp.command.CommandParser;
 import com.victorhugo.saleswhastapp.command.CommandRouter;
-import com.victorhugo.saleswhastapp.command.ParsedCommandDTO;
+import com.victorhugo.saleswhastapp.dto.ParsedCommandDTO;
 import org.springframework.stereotype.Service;
 
 @Service

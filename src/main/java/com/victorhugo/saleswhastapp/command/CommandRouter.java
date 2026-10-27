@@ -1,9 +1,8 @@
 package com.victorhugo.saleswhastapp.command;
 
+import com.victorhugo.saleswhastapp.dto.ParsedCommandDTO;
 import org.springframework.stereotype.Component;
-import org.springframework.web.servlet.tags.ArgumentAware;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -31,6 +30,7 @@ public class CommandRouter {
         if(!handlers.containsKey(dto.getCommand())){
             return "Instruccion no reconocida";
         }
+
         return handlers.get(dto.getCommand()).handle(dto.getArguments());
 
     }

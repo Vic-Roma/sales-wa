@@ -1,4 +1,4 @@
-package com.victorhugo.saleswhastapp.command;
+package com.victorhugo.saleswhastapp.dto;
 
 import java.util.List;
 

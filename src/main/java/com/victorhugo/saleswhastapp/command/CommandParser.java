@@ -1,5 +1,6 @@
 package com.victorhugo.saleswhastapp.command;
 
+import com.victorhugo.saleswhastapp.dto.ParsedCommandDTO;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
